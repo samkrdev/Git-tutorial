@@ -38,3 +38,26 @@ Version control is a system that **_records changes_** to a file or set of files
    * No risk of single point failure
 
    ![DVCS system](/assets/images/dvcs.png)
+
+## What is Git
+
+1. Git is a mature, actively maintained open source project originally developed in 2005 by Linus Torvalds, the famous creator of the Linux operating system kernel.
+2. A staggering number of software projects rely on Git for version control, including commercial projects as well as open source.
+3. Git is an example of a DVCS.
+4. In Git, every developer's working copy of the code is also a repository that can contain the full history of all changes.
+
+5. Git has been designed with performance, security and flexibility in mind.
+
+## Version Control with Git
+
+1. Git has the functionality, performance, security and flexibility that most teams and individual developers need.
+
+2. Git is a de facto standard due to huge talent pool.
+
+3. Git is a quality open source project. No Cost.
+
+4. Performance, Security and Flexibility
+
+## Git Operations and Commands
+
+![Basic Git Commands](/assets/diagrams/basic.commands.drawio.svg)
