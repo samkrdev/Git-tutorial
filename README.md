@@ -146,6 +146,37 @@ Before we start with Git, it pays to know basics of Bash shell.
    mv RacoonCity.txt RockfortIsland.txt
    ```
 
+   You can use `mv` for moving too. Use `cp` to copy.
+
+   Consider the following folder structure
+
+   ![Before Moving](/assets/images/pre_mv.png)
+
+   We want to move all the .py files from `My_App/static` folder to `My_App/app` folder
+
+   Let's assume that our working directory is `My_App` folder
+   We can move the .py files using below command
+
+   ```console
+   mv static/app.py static/manage.py static/settings.py static/urls.py static/views.py app/
+   ```
+
+   Since we are only moving .py files, we can use * wildcard to shorten the command.
+
+   ```console
+   mv static/*.py app/
+   ```
+
+   Using any of the above two commands will result in following folder structure.
+
+    ![After Moving](/assets/images/post_mv.png)
+
+   Let's assume `My_App/static` is our working directory. In this case we will have to write our command as follows
+
+   ```console
+   mv *.py ../app/
+   ```
+
 ## Git Operations and Commands
 
 ![Basic Git Commands](/assets/diagrams/basic.commands.drawio.svg)
