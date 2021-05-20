@@ -58,6 +58,94 @@ Version control is a system that **_records changes_** to a file or set of files
 
 4. Performance, Security and Flexibility
 
+## Bash Shell
+
+Before we start with Git, it pays to know basics of Bash shell.
+
+1. Printing to terminal:
+
+   ```console
+   echo "Hello there!"
+   ```
+
+2. Know current working directory
+
+   ```console
+   pwd
+   ```
+
+3. See what is there in the working directory
+
+   ```console
+   ls
+   ```
+
+   To see hidden files
+
+   ```console
+   ls -a
+   ```
+
+   To see the more details of files and folders
+
+   ```console
+   ls -l
+   ```
+
+4. Go to a folder with in the directory
+
+   ```console
+   cd assets
+   ```
+
+   Go to previous folder
+
+   ```console
+   cd ..
+   ```
+
+   Go to home directory
+
+   ```console
+   cd ~
+   ```
+
+   Create a folder called "UmbrellaCorp" in the working directory
+
+   ```console
+   mkdir UmbrellaCorp
+   ```
+
+   Create an empty file called "baker.txt" in the working directory
+
+   ```console
+   touch baker.txt 
+   ```
+
+   Delete a file called "wesker.txt" in the working directory
+
+   ```console
+   rm wesker.txt
+   ```
+
+   Delete a folder called "tricell" in the working directory
+
+   ```console
+   rmdir tricell
+   ```
+
+   Delete everything in a folder. Will prompt for a confirmation if there are more than 3 items to delete.
+
+   ```console
+   rmdir -r *
+   ```
+
+   Rename a file called "RacoonCity.txt" to "RockfortIsland.txt"
+
+   ```console
+   mv RacoonCity.txt RockfortIsland.txt
+   ```
+
 ## Git Operations and Commands
 
 ![Basic Git Commands](/assets/diagrams/basic.commands.drawio.svg)
