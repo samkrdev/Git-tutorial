@@ -213,7 +213,6 @@ Before we start with Git, it pays to know basics of Bash shell.
    man ls
    ```
 
-
 Understand file permissions notations at <https://help.ubuntu.com/community/FilePermissions>
 
 ![Output with lsd](/assets/images/lsd.png)
