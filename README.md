@@ -177,6 +177,47 @@ Before we start with Git, it pays to know basics of Bash shell.
    mv *.py ../app/
    ```
 
+5. To create a file called `dumblydore.txt`
+
+   **In the working directory**
+
+   ```console
+   touch dumblydore.txt
+   ```
+
+   **In sub-directory called `hogwarts`**
+
+   ```console
+   touch hogwarts/dumblydore.txt
+   ```
+
+6. Some more useful commands to explore:
+
+   ```console
+   # Create and edit a file called harry.txt
+   nano harry.txt
+   
+   # Print to console  
+   echo "Yer a wizard Harry"
+
+   # Write directly to a file
+   echo "Yer a wizard Harry" > hagrid.txt
+
+   # Append to a file
+   echo "I Should Not Have Said That." >> hagrid.txt
+
+   # See contents of a file
+   cat hagrid.txt
+
+   # Get help on commands
+   man ls
+   ```
+
+
+Understand file permissions notations at <https://help.ubuntu.com/community/FilePermissions>
+
+![Output with lsd](/assets/images/lsd.png)
+
 ## Git Operations and Commands
 
 ![Basic Git Commands](/assets/diagrams/basic.commands.drawio.svg)
