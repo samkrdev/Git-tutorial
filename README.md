@@ -14,6 +14,7 @@ Notes for quick reference on Git
     - [**For help on git commands**](#for-help-on-git-commands)
     - [**For initializing the project**](#for-initializing-the-project)
     - [Ignoring some files for Version control](#ignoring-some-files-for-version-control)
+    - [Important study material](#important-study-material)
     - [The Workflow commands](#the-workflow-commands)
       - [Check Working tree](#check-working-tree)
       - [Stage files for committing](#stage-files-for-committing)
@@ -319,6 +320,13 @@ logs
 *.sw*
 ```
 
+### Important study material
+
+- The Three States <https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F>
+- What's the difference between HEAD, working tree and index, in Git? <https://stackoverflow.com/questions/3689838/whats-the-difference-between-head-working-tree-and-index-in-git>
+
+-
+
 ### The Workflow commands
 
 ![Basic Git Workflow](/assets/images/git_workflow.png)
@@ -469,6 +477,8 @@ git diff
    ```
 
 - Reset a commit
+  - Reference material for below
+      <https://stackoverflow.com/questions/2530060/in-plain-english-what-does-git-reset-do>
 
   ```zsh
    git reset --soft <hashcode>
